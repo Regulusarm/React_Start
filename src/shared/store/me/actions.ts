@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Action, ActionCreator, AnyAction } from "redux";
+import { Action, ActionCreator } from "redux";
 import { ThunkAction } from "redux-thunk";
 import { IUserData } from "../../../hooks/useUserData";
 import { RootState } from "../rootReducer";
