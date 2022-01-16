@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../shared/store/rootReducer';
-import { tokenRequestSuccess } from '../shared/store/token/actions';
+import { tokenRequestSuccess } from '../shared/store/Token/actions';
 
 
 export function useToken() {
