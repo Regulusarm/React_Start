@@ -1,1 +1,1 @@
-env CLIENT_ID=vN2o7X0DZB5g2NiDgpSnFw SECRET=xTHztmerLPXMiMpmBDlZcKzJttxqzw node ./dist/server/server.js
+web: env CLIENT_ID=vN2o7X0DZB5g2NiDgpSnFw SECRET=xTHztmerLPXMiMpmBDlZcKzJttxqzw node ./dist/server/server.js
