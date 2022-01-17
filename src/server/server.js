@@ -5,8 +5,6 @@ import { App } from '../shared/App'
 import { indexTemplate } from './indexTemplate';
 import axios from 'axios';
 
-export const HOST = process.env.HOST || 'http://localhost:3000'
-
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -17,7 +15,7 @@ app.use('/static', express.static('./dist/client'));
 app.get('/auth', (req, res) => {
   axios.post(
     'https://www.reddit.com/api/v1/access_token', 
-    `grant_type=authorization_code&code=${req.query.code}&redirect_uri=${HOST}/auth`,
+    `grant_type=authorization_code&code=${req.query.code}&redirect_uri=https://re-mirror.herokuapp.com/auth`,
     { 
       auth: { username: process.env.CLIENT_ID, password: process.env.SECRET},
       headers: { 'Content-type': 'application/x-www-form-urlencoded' }
@@ -39,5 +37,5 @@ app.get('/auth', (req, res) => {
     });
 
 app.listen(PORT, () => {
-  console.log(`Server started on ${HOST + ':' + PORT}`);
+  console.log(`Server started on http://localhost:${PORT}`);
 })

@@ -14,7 +14,7 @@
     "build": "env NODE_ENV=production webpack --config webpack.config.js",
     "dev": "env NODE_ENV=development CLIENT_ID=wPuZkCZI9S4RJ87ZKWwc0w SECRET=EmuC04f1ckYXf7OLCPwGUTL89dl4bw node ./bin/dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "CLIENT_ID=wPuZkCZI9S4RJ87ZKWwc0w SECRET=EmuC04f1ckYXf7OLCPwGUTL89dl4bw HOST=https://re-mirror.herokuapp.com node ./dist/server/server.js"
+    "start": "CLIENT_ID=wPuZkCZI9S4RJ87ZKWwc0w SECRET=EmuC04f1ckYXf7OLCPwGUTL89dl4bw node ./dist/server/server.js"
   },
   "repository": {
     "type": "git",
