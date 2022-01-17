@@ -3,7 +3,6 @@ import { Break } from '../../../Break';
 import { Text, EColors } from '../../../Text/Text'
 import { IconAnon } from '../../../Icons/Icon/IconAnon';
 import styles from './userblock.scss';
-import { HOST } from '../../../../server/server';
 
 interface IUserBlockProps {
   avatarSrc?: string;

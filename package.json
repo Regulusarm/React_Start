@@ -14,7 +14,7 @@
     "build": "env NODE_ENV=production webpack --config webpack.config.js",
     "dev": "env NODE_ENV=development CLIENT_ID=wPuZkCZI9S4RJ87ZKWwc0w SECRET=EmuC04f1ckYXf7OLCPwGUTL89dl4bw node ./bin/dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node CLIENT_ID=HzK-pC9EKGNFSkK3PkAD1Q SECRET=nYYxGf6HemMTBDdDMOzFp00AIDG3QA ./dist/server/server.js"
+    "start": "node CLIENT_ID=wPuZkCZI9S4RJ87ZKWwc0w SECRET=EmuC04f1ckYXf7OLCPwGUTL89dl4bw ./dist/server/server.js"
   },
   "repository": {
     "type": "git",
